@@ -1,0 +1,50 @@
+# .gitignore for KPI Reporting Backend
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.mo
+*.sqlite3
+media/
+logs/
+
+# Environment
+.env
+.env.*
+venv/
+ENV/
+.envrc
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Excel and backup files
+*.xlsx
+*.xls
+*.bak
+*.sql
+
+# Certificates and keys
+*.crt
+*.key
+
+# Misc
+*.drawio
+*.pdf

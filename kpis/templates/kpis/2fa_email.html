@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Verification Code</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        .code { font-size: 24px; font-weight: bold; color: #2563eb; }
+        .footer { margin-top: 20px; font-size: 12px; color: #6b7280; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Hello {{ user.username }},</p>
+        <p>Your verification code for the KPI Monitoring System is:</p>
+        <p class="code">{{ code }}</p>
+        <p>This code will expire in {{ expiry_minutes }} minutes.</p>
+        <p>If you didn't request this code, please contact your system administrator immediately.</p>
+        <div class="footer">
+            <p>This is an automated message. Please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html>
